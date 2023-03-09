@@ -8,7 +8,7 @@ public class TrackCheckpoints : MonoBehaviour
     public event EventHandler OnPlayerCorrectCheckpoint;
     public event EventHandler OnPlayerWrongCheckpoint;
     
-    [SerializeField] float Timeleft = 30f;
+    [SerializeField] float Timeleft = 60f;
     private List<CarAgent> carTransformList;
     private List<CheckpointSingle> checkpointSingleList;
     private List<int> nextCheckpointSingleIndexList;
@@ -50,6 +50,9 @@ public class TrackCheckpoints : MonoBehaviour
             }
         }
     }
+    public void DecreaseTimeHitWall(CarAgent car) {
+        // checkpointTimeLeft[carTransformList.IndexOf(car)] = checkpointTimeLeft[carTransformList.IndexOf(car)]-(Time.deltaTime*10);
+    }
     public void PlayerThroughCheckpoint(CheckpointSingle checkpointsingle, Transform carTransform) {
         if(checkpointSingleList.IndexOf(checkpointsingle) == nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())]) {
             // Debug.Log("Correct Checkpoint!!");
@@ -74,7 +77,7 @@ public class TrackCheckpoints : MonoBehaviour
     }
 
     public Vector3 GetNewSpawnPoint() {
-        Vector3 pos = Vector3.zero + new Vector3(UnityEngine.Random.Range(-5f,+5f),0, UnityEngine.Random.Range(-15f,-6f)); 
+        Vector3 pos = Vector3.zero + new Vector3(UnityEngine.Random.Range(-1f,+15f),5, UnityEngine.Random.Range(-15f,-10f)); 
         return pos;
     }
 }
