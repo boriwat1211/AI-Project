@@ -8,7 +8,7 @@ public class TrackCheckpoints : MonoBehaviour
     public event EventHandler OnPlayerCorrectCheckpoint;
     public event EventHandler OnPlayerWrongCheckpoint;
     
-    [SerializeField] float Timeleft = 60f;
+    [SerializeField] float Timeleft = 20f;
     private List<CarAgent> carTransformList;
     private List<CheckpointSingle> checkpointSingleList;
     private List<int> nextCheckpointSingleIndexList;
@@ -59,11 +59,10 @@ public class TrackCheckpoints : MonoBehaviour
             carTransformList[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())].CarCorrectCheckpoint();
             nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())] = (nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())]+1) %  checkpointSingleList.Count;
             checkpointTimeLeft[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())] = Timeleft;
-            OnPlayerCorrectCheckpoint?.Invoke(this,EventArgs.Empty);
+            Debug.Log(checkpointTimeLeft[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())]);
         } else {
             // Debug.Log("Wrong Checkpoint!!");
             carTransformList[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())].CarWrongCheckpoint();
-            OnPlayerWrongCheckpoint?.Invoke(this,EventArgs.Empty);
         }
     }
 
@@ -73,7 +72,7 @@ public class TrackCheckpoints : MonoBehaviour
     }
 
     public Vector3 GetNextCheckpoint(CarAgent car) {
-        return checkpointSingleList[nextCheckpointSingleIndexList[carTransformList.IndexOf(car)]].transform.position;
+        return checkpointSingleList[nextCheckpointSingleIndexList[carTransformList.IndexOf(car)]].transform.localPosition;
     }
 
     public Vector3 GetNewSpawnPoint() {
