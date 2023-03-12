@@ -5,14 +5,13 @@ using UnityEngine;
 
 public class TrackCheckpoints : MonoBehaviour
 {
-    public event EventHandler OnPlayerCorrectCheckpoint;
-    public event EventHandler OnPlayerWrongCheckpoint;
-    
-    [SerializeField] float Timeleft = 20f;
+    [SerializeField] float Timeleft = 5f;
     private List<CarAgent> carTransformList;
     private List<CheckpointSingle> checkpointSingleList;
     private List<int> nextCheckpointSingleIndexList;
     private List<float> checkpointTimeLeft;
+    private List<float> timeLap;
+    private List<float> timeLapCounter;
     private void Awake() {
         Transform checkpointsTransform = transform.Find("Checkpoints");
         checkpointSingleList = new List<CheckpointSingle>();
@@ -29,12 +28,14 @@ public class TrackCheckpoints : MonoBehaviour
             carTransformList.Add(carAgent);
         }
         nextCheckpointSingleIndexList = new List<int>();
+        checkpointTimeLeft = new List<float>();
+        timeLap = new List<float>();
+        timeLapCounter = new List<float>();
         foreach (CarAgent car in carTransformList) {
             nextCheckpointSingleIndexList.Add(0);
-        }
-        checkpointTimeLeft = new List<float>();
-        foreach (CarAgent car in carTransformList) {
             checkpointTimeLeft.Add(Timeleft);
+            timeLap.Add(0f);
+            timeLapCounter.Add(0f);
         }
     }
 
@@ -43,6 +44,7 @@ public class TrackCheckpoints : MonoBehaviour
         for(int i = 0;i<checkpointTimeLeft.Count;i++)
         {
             checkpointTimeLeft[i] = checkpointTimeLeft[i]-Time.deltaTime;
+            timeLapCounter[i] = timeLapCounter[i]+Time.deltaTime;
             if(checkpointTimeLeft[i]<=0)
             {
                 carTransformList[i].Timeout();
@@ -60,6 +62,16 @@ public class TrackCheckpoints : MonoBehaviour
             nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())] = (nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())]+1) %  checkpointSingleList.Count;
             checkpointTimeLeft[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())] = Timeleft;
             Debug.Log(checkpointTimeLeft[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())]);
+            if(nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())]==0) {
+                // Debug.Log("Goal Checked!!");
+                if(timeLap[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())]==0||timeLapCounter[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())]<timeLap[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())])
+                {
+                    timeLap[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())] = timeLapCounter[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())];
+                    carTransformList[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())].CarTimeLapFaster();
+                    carTransformList[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())].CarEndEpisode();
+                }
+                timeLapCounter[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())] = 0f;
+            }
         } else {
             // Debug.Log("Wrong Checkpoint!!");
             carTransformList[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())].CarWrongCheckpoint();
@@ -76,7 +88,7 @@ public class TrackCheckpoints : MonoBehaviour
     }
 
     public Vector3 GetNewSpawnPoint() {
-        Vector3 pos = Vector3.zero + new Vector3(UnityEngine.Random.Range(-1f,+15f),5, UnityEngine.Random.Range(-15f,-10f)); 
+        Vector3 pos = Vector3.zero + new Vector3(5,0,-10); 
         return pos;
     }
 }

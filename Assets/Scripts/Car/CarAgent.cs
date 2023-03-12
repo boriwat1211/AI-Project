@@ -12,13 +12,13 @@ public class CarAgent : Agent
     private float lastSpeed = 0;
     private void OnCollisionEnter(Collision collision) {
         if(collision.gameObject.TryGetComponent<Wall>(out Wall wall)) {
-            AddReward(-5f);
+            AddReward(-15f);
             Debug.Log("Reward Minused Wall Hit!!");
         }
     }
     private void OnCollisionStay(Collision collision) {
         if(collision.gameObject.TryGetComponent<Wall>(out Wall wall)) {
-            AddReward(-1f);
+            AddReward(-10f);
             trackCheckpoints.DecreaseTimeHitWall(this);
             Debug.Log("Reward Minused Wall Stay!!");
         }
@@ -29,27 +29,56 @@ public class CarAgent : Agent
     }
     public override void OnEpisodeBegin()
     {
-        transform.localPosition += new Vector3(0,5,0);
         Vector3 pos = trackCheckpoints.GetNewSpawnPoint();
         transform.localPosition = pos;
         transform.forward = new Vector3(0,0,-10);
         trackCheckpoints.ResetCheckpoint(this);
+        lastPos = transform.localPosition;
     }
 
     public override void CollectObservations(VectorSensor sensor)
     {
         Vector3 diff = trackCheckpoints.GetNextCheckpoint(this)-transform.localPosition;
         if(lastPos!=Vector3.zero && (Vector3.Distance(lastPos,trackCheckpoints.GetNextCheckpoint(this))>Vector3.Distance(transform.localPosition,trackCheckpoints.GetNextCheckpoint(this)))) {
-            AddReward(0.5f);
+            // AddReward(0.1f);
             Debug.Log("Reward Added Move Forward!!");
         } else {
-            // AddReward(-2f);
-            Debug.Log("Reward Minused Move Backward!!");
+
         }
         lastSpeed = controlledCar.SpeedInHour;
         lastPos = transform.localPosition;
+        if(lastSpeed > 150) {
+            Debug.Log("Reward Added Speed Over 150 km/hr. !!");
+            // AddReward(2f);
+        }
+        else if (lastSpeed > 120) {
+            Debug.Log("Reward Added Speed Over 120 km/hr. !!");
+            // AddReward(1.75f);
+        }
+        else if (lastSpeed > 100) {
+            Debug.Log("Reward Added Speed Over 100 km/hr. !!");
+            // AddReward(1.50f);
+        }
+        else if(lastSpeed>80) {
+            Debug.Log("Reward Added Speed Over 80 km/hr. !!");
+            // AddReward(1.25f);
+        }
+        else if(lastSpeed>50) {
+            Debug.Log("Reward Added Speed Over 50 km/hr. !!");
+            // AddReward(1f);
+        } else if(lastSpeed > 20) {
+            Debug.Log("Reward Added Speed Over 20 km/hr. !!");
+            // AddReward(0.75f);
+        } else if(lastSpeed > 5) {
+            Debug.Log("Reward Added Speed Over 5 km/hr. !!");
+            // AddReward(0.5f);
+        }
+        else {
+            Debug.Log("Reward Minused Speed Under 5 km/hr. !!");
+            // AddReward(-2f);
+        }
         sensor.AddObservation(controlledCar.CurrentMaxSlip);
-        sensor.AddObservation(controlledCar.CurrentSpeed);
+        sensor.AddObservation(controlledCar.SpeedInHour/100);
         sensor.AddObservation(diff/20f);
         AddReward(-0.1f);
     }
@@ -63,28 +92,6 @@ public class CarAgent : Agent
     }
     public override void OnActionReceived(ActionBuffers actions)
     {
-        // int horizontal = actions.DiscreteActions[0];
-        // int vertical = actions.DiscreteActions[1];
-        // int breke = actions.DiscreteActions[2];
-        // float Horizontal = 0f;
-        // float Vertical = 0f;
-        // bool Brake = false;
-        // switch(horizontal){
-        //     case 0: Horizontal = 0f; break;
-        //     case 1: Horizontal = 1f; break;
-        //     case 2: Horizontal = -1f; break;
-        // }
-        // switch(vertical){
-        //     case 0: Vertical = 0f; break;
-        //     case 1: Vertical = 1f; break;
-        //     case 2: Vertical = -1f; break;
-        // }
-        // switch(breke){
-        //     case 0: Brake = false; break;
-        //     case 1: Brake = true; break;
-        // }
-        // controlledCar.UpdateControls(Horizontal,Vertical,Brake);
-
         float horizontal = actions.ContinuousActions[0];
         float vertical = actions.ContinuousActions[1];
         bool breke = false;
@@ -97,20 +104,24 @@ public class CarAgent : Agent
         this.trackCheckpoints = trackCheckpoints;
     }
     public void CarCorrectCheckpoint() {
-        AddReward(5.0f);
+        AddReward(10.0f);
         Debug.Log("Reward Added Correct Checkpoint!!");
     }
 
     public void CarWrongCheckpoint() {
-        AddReward(-5.0f);
+        AddReward(-15.0f);
         Debug.Log("Reward Minused Wrong Checkpoint!!");
     }
 
     public void Timeout() {
-        AddReward(-10.0f);
+        AddReward(-20.0f);
         Debug.Log("Reward Minused Timeout!!");
     }
     public void CarEndEpisode() {
         EndEpisode();
+    }   
+    public void CarTimeLapFaster() {
+        AddReward(20.0f);
+        Debug.Log("Reward Added TimeLap faster!!");
     }
 }
