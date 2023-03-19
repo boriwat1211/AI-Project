@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class TrackCheckpoints : MonoBehaviour
 {
-    [SerializeField] float Timeleft = 5f;
+    [SerializeField] float Timeleft = 15f;
     private List<CarAgent> carTransformList;
     private List<CheckpointSingle> checkpointSingleList;
     private List<int> nextCheckpointSingleIndexList;
@@ -43,13 +43,18 @@ public class TrackCheckpoints : MonoBehaviour
     {
         for(int i = 0;i<checkpointTimeLeft.Count;i++)
         {
-            checkpointTimeLeft[i] = checkpointTimeLeft[i]-Time.deltaTime;
-            timeLapCounter[i] = timeLapCounter[i]+Time.deltaTime;
             if(checkpointTimeLeft[i]<=0)
             {
-                carTransformList[i].Timeout();
-                carTransformList[i].CarEndEpisode();
+                // carTransformList[i].Timeout();
+                for(int j = 0;j<carTransformList.Count;j++) 
+                {
+                    carTransformList[j].CarEndEpisode();
+                }
+                break;
             }
+            // Debug.Log(checkpointTimeLeft[i]);
+            checkpointTimeLeft[i] = checkpointTimeLeft[i]-Time.deltaTime;
+            timeLapCounter[i] = timeLapCounter[i]+Time.deltaTime;
         }
     }
     public void DecreaseTimeHitWall(CarAgent car) {
@@ -64,11 +69,18 @@ public class TrackCheckpoints : MonoBehaviour
             Debug.Log(checkpointTimeLeft[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())]);
             if(nextCheckpointSingleIndexList[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())]==0) {
                 // Debug.Log("Goal Checked!!");
-                if(timeLap[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())]==0||timeLapCounter[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())]<timeLap[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())])
+                // if(timeLap[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())]==0||timeLapCounter[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())]<timeLap[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())])
+                // {
+                //     timeLap[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())] = timeLapCounter[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())];
+                //     carTransformList[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())].CarTimeLapFaster();
+                //     carTransformList[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())].CarEndEpisode();
+                // }
+
+                for(int i = 0;i<carTransformList.Count;i++) 
                 {
-                    timeLap[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())] = timeLapCounter[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())];
-                    carTransformList[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())].CarTimeLapFaster();
-                    carTransformList[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())].CarEndEpisode();
+                    timeLap[i] = timeLapCounter[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())];
+                    carTransformList[i].CarTimeLapFaster();
+                    carTransformList[i].CarEndEpisode();
                 }
                 timeLapCounter[carTransformList.IndexOf(carTransform.GetComponent<CarAgent>())] = 0f;
             }
@@ -86,9 +98,14 @@ public class TrackCheckpoints : MonoBehaviour
     public Vector3 GetNextCheckpoint(CarAgent car) {
         return checkpointSingleList[nextCheckpointSingleIndexList[carTransformList.IndexOf(car)]].transform.localPosition;
     }
+    public Vector3 GetNextCheckpointForward(CarAgent car) {
+        return checkpointSingleList[nextCheckpointSingleIndexList[carTransformList.IndexOf(car)]].transform.forward;
+    }
 
-    public Vector3 GetNewSpawnPoint() {
-        Vector3 pos = Vector3.zero + new Vector3(5,0,-10); 
+    public Vector3 GetNewSpawnPoint(CarAgent car) {
+        Vector3 pos = Vector3.zero + new Vector3(18-((carTransformList.IndexOf(car)%7)*7),0,-12+((carTransformList.IndexOf(car)/7)*6));
         return pos;
+        // Vector3 pos = Vector3.zero + new Vector3(5,0,-10); 
+        // return pos;
     }
 }

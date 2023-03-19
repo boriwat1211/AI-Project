@@ -123,6 +123,255 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &130294943
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 629642069930703035, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 777997591711757141, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173779714801433257, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228822553887382918, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321687039505918254, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734286389608597151, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885711053682291025, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2423964854545656218, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2455887353498036921, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506884767827292166, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3218113216550498334, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675011069195858241, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887802555216556026, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024331235870640765, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087467070531500273, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548240984269139709, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264310820030069428, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5526336044946900502, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5733395490924239746, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021630361070312471, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 11
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3264
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644958, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: Timeleft
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644959, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Map (7)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327430688309234037, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca56103abfb5b38439e2bcd19a7ffb5e, type: 3}
 --- !u!1 &305982147
 GameObject:
   m_ObjectHideFlags: 0
@@ -207,6 +456,753 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &556318988
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 629642069930703035, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 777997591711757141, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173779714801433257, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228822553887382918, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321687039505918254, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734286389608597151, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885711053682291025, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2423964854545656218, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2455887353498036921, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506884767827292166, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3218113216550498334, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675011069195858241, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887802555216556026, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024331235870640765, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087467070531500273, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548240984269139709, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264310820030069428, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5526336044946900502, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5733395490924239746, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021630361070312471, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1101
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644958, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: Timeleft
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644959, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Map (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327430688309234037, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca56103abfb5b38439e2bcd19a7ffb5e, type: 3}
+--- !u!1001 &786372367
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 629642069930703035, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 777997591711757141, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173779714801433257, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228822553887382918, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321687039505918254, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734286389608597151, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885711053682291025, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2423964854545656218, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2455887353498036921, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506884767827292166, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3218113216550498334, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675011069195858241, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887802555216556026, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024331235870640765, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087467070531500273, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548240984269139709, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264310820030069428, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5526336044946900502, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5733395490924239746, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021630361070312471, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1082
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644958, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: Timeleft
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644959, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Map (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327430688309234037, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca56103abfb5b38439e2bcd19a7ffb5e, type: 3}
+--- !u!1001 &808106167
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 629642069930703035, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 777997591711757141, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173779714801433257, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228822553887382918, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321687039505918254, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734286389608597151, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885711053682291025, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2423964854545656218, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2455887353498036921, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506884767827292166, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3218113216550498334, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675011069195858241, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887802555216556026, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024331235870640765, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087467070531500273, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548240984269139709, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264310820030069428, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5526336044946900502, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5733395490924239746, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021630361070312471, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1088
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1097
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644958, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: Timeleft
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644959, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Map (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327430688309234037, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca56103abfb5b38439e2bcd19a7ffb5e, type: 3}
 --- !u!1001 &820049448
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -276,302 +1272,1417 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e01ead4acdc78cf4cbc69db797a74bf6, type: 3}
---- !u!1001 &1459444948
+--- !u!1001 &859795661
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 60378368688905394, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 629642069930703035, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 158577102211895291, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 351686588309209963, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 994124639578659917, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1054403112511662540, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1054867225610227923, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1224780943471266989, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1265984071308419723, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1465153226012875407, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 1546082301818184465, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Layer
+      propertyPath: DecisionPeriod
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 1664097454651722737, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 777997591711757141, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1818819497953346704, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 1827138507627611027, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2334849318301668422, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 2691305660530868474, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 2712607815166114241, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Layer
+      propertyPath: DecisionPeriod
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 3311168967700310475, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 1173779714801433257, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228822553887382918, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321687039505918254, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734286389608597151, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885711053682291025, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2423964854545656218, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2455887353498036921, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506884767827292166, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3218113216550498334, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675011069195858241, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887802555216556026, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024331235870640765, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
       propertyPath: m_Model
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 3399026330634086845, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 3909897238346788556, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 4087467070531500273, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
       propertyPath: m_Model
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 3909897238574802780, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548240984269139709, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
       propertyPath: m_Model
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 3909897238574802780, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
-      propertyPath: m_BehaviorType
-      value: 0
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 3909897239313200580, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
       propertyPath: m_Model
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 3909897239443445456, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264310820030069428, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5526336044946900502, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
       propertyPath: m_Model
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 3909897239897821607, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
-      propertyPath: m_Model
-      value: 
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
       objectReference: {fileID: 0}
-    - target: {fileID: 4222809971948816576, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 5733395490924239746, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
-      propertyPath: m_Model
-      value: 
+      propertyPath: DecisionPeriod
+      value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 4318208924037341390, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 6021630361070312471, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4614155856901000842, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4792006747444200600, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 4827979658971985487, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4827979659549266476, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4827979659630318939, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4827979660076641607, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4827979660918072535, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 4875904733844296232, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5299053886266710924, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -23.11
-      objectReference: {fileID: 0}
-    - target: {fileID: 5299053886266710924, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -187.42
-      objectReference: {fileID: 0}
-    - target: {fileID: 5299053886338524386, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -75.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5299053886338524386, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -179
-      objectReference: {fileID: 0}
-    - target: {fileID: 5299053886904691762, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -60.4
-      objectReference: {fileID: 0}
-    - target: {fileID: 5299053886904691762, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -188.6
-      objectReference: {fileID: 0}
-    - target: {fileID: 5299053887151237833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -44.37
-      objectReference: {fileID: 0}
-    - target: {fileID: 5299053887151237833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -192.15
-      objectReference: {fileID: 0}
-    - target: {fileID: 5299053887319632170, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -5.35
-      objectReference: {fileID: 0}
-    - target: {fileID: 5299053887319632170, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: -170.65
-      objectReference: {fileID: 0}
-    - target: {fileID: 5360703343900913266, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5703214523822581651, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 5799476364716209042, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6135554351398262733, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6322310360046821626, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6387718543914257002, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6391014246772107840, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: 5
-      objectReference: {fileID: 0}
-    - target: {fileID: 6514763938435557942, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6619127991924551188, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6806891898126106478, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6906620465279722558, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Model
-      value: 
-      objectReference: {fileID: 0}
-    - target: {fileID: 6908886415086428136, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
-        type: 3}
-      propertyPath: m_Layer
-      value: 0
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
       objectReference: {fileID: 0}
     - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2163
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644958, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: Timeleft
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644959, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Map (10)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327430688309234037, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca56103abfb5b38439e2bcd19a7ffb5e, type: 3}
+--- !u!1001 &880983205
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 629642069930703035, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 777997591711757141, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173779714801433257, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228822553887382918, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321687039505918254, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734286389608597151, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885711053682291025, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2423964854545656218, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2455887353498036921, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506884767827292166, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3218113216550498334, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675011069195858241, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887802555216556026, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024331235870640765, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087467070531500273, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548240984269139709, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264310820030069428, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5526336044946900502, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5733395490924239746, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021630361070312471, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1082
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2163
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644958, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: Timeleft
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644959, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Map (6)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327430688309234037, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca56103abfb5b38439e2bcd19a7ffb5e, type: 3}
+--- !u!1001 &945852286
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 629642069930703035, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 777997591711757141, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173779714801433257, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228822553887382918, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321687039505918254, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734286389608597151, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885711053682291025, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2423964854545656218, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2455887353498036921, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506884767827292166, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3218113216550498334, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675011069195858241, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887802555216556026, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024331235870640765, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087467070531500273, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548240984269139709, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264310820030069428, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5526336044946900502, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5733395490924239746, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021630361070312471, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 1088
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3260
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644958, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: Timeleft
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644959, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Map (8)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327430688309234037, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca56103abfb5b38439e2bcd19a7ffb5e, type: 3}
+--- !u!1001 &1227414044
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 629642069930703035, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 777997591711757141, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173779714801433257, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228822553887382918, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321687039505918254, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734286389608597151, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885711053682291025, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2423964854545656218, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2455887353498036921, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506884767827292166, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3218113216550498334, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675011069195858241, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887802555216556026, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024331235870640765, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087467070531500273, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548240984269139709, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264310820030069428, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5526336044946900502, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5733395490924239746, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021630361070312471, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1079
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1089
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644958, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: Timeleft
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644959, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Map (5)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327430688309234037, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca56103abfb5b38439e2bcd19a7ffb5e, type: 3}
+--- !u!1001 &1387966472
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 629642069930703035, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 777997591711757141, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173779714801433257, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228822553887382918, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321687039505918254, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734286389608597151, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885711053682291025, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2423964854545656218, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2455887353498036921, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506884767827292166, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3218113216550498334, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675011069195858241, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887802555216556026, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024331235870640765, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087467070531500273, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548240984269139709, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264310820030069428, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5526336044946900502, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5733395490924239746, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021630361070312471, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1079
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 2163
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644958, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: Timeleft
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644959, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Map (9)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327430688309234037, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca56103abfb5b38439e2bcd19a7ffb5e, type: 3}
+--- !u!1001 &1955129005
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 629642069930703035, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 777997591711757141, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173779714801433257, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228822553887382918, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321687039505918254, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734286389608597151, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885711053682291025, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2423964854545656218, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2455887353498036921, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506884767827292166, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3218113216550498334, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675011069195858241, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887802555216556026, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024331235870640765, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087467070531500273, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548240984269139709, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264310820030069428, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5526336044946900502, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5733395490924239746, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021630361070312471, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1079
       objectReference: {fileID: 0}
     - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
@@ -618,50 +2729,289 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644958, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: Timeleft
+      value: 30
+      objectReference: {fileID: 0}
     - target: {fileID: 6908886415120644959, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
       propertyPath: m_Name
-      value: Map
+      value: Map (4)
       objectReference: {fileID: 0}
-    - target: {fileID: 6996225618788407556, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 7327430688309234037, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
       propertyPath: m_Model
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 7192476025469426911, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
       propertyPath: m_Model
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 7706455236664908018, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca56103abfb5b38439e2bcd19a7ffb5e, type: 3}
+--- !u!1001 &2010678719
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 629642069930703035, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 777997591711757141, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173779714801433257, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228822553887382918, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321687039505918254, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734286389608597151, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885711053682291025, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2423964854545656218, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2455887353498036921, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506884767827292166, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3218113216550498334, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675011069195858241, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887802555216556026, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024331235870640765, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
       propertyPath: m_Model
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 7952760333981065211, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087467070531500273, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
       propertyPath: m_Model
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 8125565753239997373, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548240984269139709, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
       propertyPath: m_Model
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 8472488020397580089, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
       propertyPath: m_Model
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 8605477886869768563, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264310820030069428, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5526336044946900502, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
       propertyPath: m_Model
       value: 
       objectReference: {fileID: 0}
-    - target: {fileID: 9081374617015672448, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5733395490924239746, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021630361070312471, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 14
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -1079
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3252
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644958, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: Timeleft
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644959, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Map (11)
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327430688309234037, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
         type: 3}
       propertyPath: m_Model
       value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ca56103abfb5b38439e2bcd19a7ffb5e, type: 3}
@@ -759,3 +3109,252 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1001 &2055856612
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 629642069930703035, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 777997591711757141, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1173779714801433257, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1228822553887382918, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1321687039505918254, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1734286389608597151, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 1885711053682291025, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2423964854545656218, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2455887353498036921, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 2506884767827292166, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3218113216550498334, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3675011069195858241, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 3887802555216556026, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4024331235870640765, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4035364567065054654, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087467070531500273, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4512594385738853512, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4548240984269139709, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4631997898338720833, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 4784333192511896006, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5264310820030069428, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5526336044946900502, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704085760389623501, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 5733395490924239746, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: DecisionPeriod
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 6021630361070312471, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644953, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644958, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: Timeleft
+      value: 30
+      objectReference: {fileID: 0}
+    - target: {fileID: 6908886415120644959, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Name
+      value: Map
+      objectReference: {fileID: 0}
+    - target: {fileID: 7327430688309234037, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_RayLayerMask.m_Bits
+      value: 4294951368
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9033485090052072809, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_Model
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 9164141635772984967, guid: ca56103abfb5b38439e2bcd19a7ffb5e,
+        type: 3}
+      propertyPath: m_BrainParameters.VectorObservationSize
+      value: 6
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ca56103abfb5b38439e2bcd19a7ffb5e, type: 3}
